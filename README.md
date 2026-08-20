@@ -20,9 +20,11 @@ Owner-verified operational results: workflows supporting 50 stores and 30,000+ S
 
 Sanitized, runnable portfolio edition of a production-used analytics and automation platform.
 
+[![Marketplace Analytics Platform dashboard with deterministic synthetic data](https://raw.githubusercontent.com/Arbitr3103/marketplace-analytics-platform/main/output/playwright/marketplace-dashboard.png)](https://github.com/Arbitr3103/marketplace-analytics-platform)
+
 - **My role:** full-stack architecture and implementation across FastAPI, Next.js, data contracts, tests, Docker, and CI
 - **Key decisions:** deterministic synthetic demo data, protocol-based infrastructure boundaries, and idempotent sync requests
-- **Current status:** public portfolio edition; local backend/frontend verification passes and GitHub Actions is configured
+- **Current status:** public portfolio edition; latest backend and frontend CI pass on `main`
 - **Boundary:** provider credentials, customer data, production infrastructure, and private ingestion workers are intentionally excluded
 
 ### [E-Chain](https://echain.world)
