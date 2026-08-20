@@ -1,8 +1,10 @@
 # Vladimir Bragin
 
-Full-Stack Developer building production web products, REST APIs, data pipelines, and practical AI-assisted workflows.
+Full-Stack & Automation Engineer building web products, REST APIs, ETL pipelines, and human-reviewed AI automation.
 
-Currently based in Russia and relocating to Novi Sad, Serbia in September 2026. Available for full-time remote work.
+Russia · Remote · Available for full-time remote work.
+
+Owner-verified operational results: workflows supporting 50 stores and 30,000+ SKUs reduced daily reporting and analysis from several hours to 20–30 minutes.
 
 ## Core stack
 
@@ -12,41 +14,47 @@ Currently based in Russia and relocating to Novi Sad, Serbia in September 2026. 
 - Quality and operations: pytest, Vitest, Playwright, Docker, GitHub Actions, Nginx, Linux, Cloudflare
 - AI integrations: LLM scoring and draft generation with explicit human review
 
-## Selected work
+## Selected engineering work
 
 ### [Marketplace Analytics Platform](https://github.com/Arbitr3103/marketplace-analytics-platform)
 
-Portfolio edition of a production-used analytics and automation platform for marketplace operations.
+Sanitized, runnable portfolio edition of a production-used analytics and automation platform.
 
-- Next.js and React frontend with a Python/FastAPI backend
-- FastAPI service layer with async SQLAlchemy, PostgreSQL, Redis cache, and an idempotent job-queue boundary
-- Workflows supporting 50 stores and more than 30,000 SKUs
-- Nightly dashboards reduced daily reporting and analysis from several hours to 20-30 minutes
-- Public code uses synthetic data and excludes private provider-specific ingestion workers
-
-### AI Project Monitor (private production project)
-
-A daily project-monitoring workflow that keeps AI output behind explicit human review.
-
-- FastAPI, async SQLAlchemy, PostgreSQL, Redis queues, JWT, React, and Telegram
-- Rule-based and LLM scoring, deduplication, and draft generation
-- Surfaces up to five relevant opportunities per day
-- Source remains private because the repository contains provider-specific integration code and operational configuration
+- **My role:** full-stack architecture and implementation across FastAPI, Next.js, data contracts, tests, Docker, and CI
+- **Key decisions:** deterministic synthetic demo data, protocol-based infrastructure boundaries, and idempotent sync requests
+- **Current status:** public portfolio edition; local backend/frontend verification passes and GitHub Actions is configured
+- **Boundary:** provider credentials, customer data, production infrastructure, and private ingestion workers are intentionally excluded
 
 ### [E-Chain](https://echain.world)
 
-Logistics SaaS/PWA for trip workflows, POD, electronic documents, PDF/XML generation, QR verification, and compliance-oriented operations.
+Production logistics SaaS/PWA for trip workflows, electronic documents, PDF/XML generation, QR verification, and operational automation.
 
-### [LAKO Services](https://github.com/Arbitr3103/lako-services)
+- **My role:** full-stack product engineering, APIs, workflow automation, reliability, and release verification
+- **Current status:** live product; operational source and infrastructure remain private
 
-Web products and automation for small businesses and transport teams, including e-invoice, booking, and document workflows.
+### [LAKO Services](https://lako.services)
+
+Telegram and web automation for logistics and small-business workflows, including document generation, service catalogs, and booking flows.
+
+- **My role:** product engineering and automation across customer-facing flows and operational tooling
+- **Current status:** live product; the public code repository is not presented as a primary portfolio pin until its documentation and security gates are complete
+
+## Private production work
+
+### AI Project Monitor
+
+A daily opportunity-monitoring workflow with rule-based and LLM scoring, deduplication, draft generation, and explicit human review before any external action.
+
+- FastAPI, async SQLAlchemy, PostgreSQL, Redis queues, React, JWT, and Telegram
+- Source remains private because it contains provider-specific integration and operational configuration
 
 ## Engineering approach
 
-- Start with explicit requirements, boundaries, and failure modes
-- Keep APIs and data contracts testable and observable
-- Use AI as an engineering tool, with human ownership of decisions and output
-- Treat security, secrets, and production verification as delivery requirements
+- Start with explicit requirements, system boundaries, and failure modes
+- Keep APIs, data contracts, migrations, and background work testable
+- Use AI for bounded research and implementation support, with human ownership of decisions and output
+- Treat security, secret handling, rollback, CI, and production verification as delivery requirements
+- Separate public portfolio evidence from private production claims
 
 ## Contact
 
